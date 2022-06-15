@@ -12,9 +12,9 @@ preference_4 <- c(17,18,9,23,24,20,6,7,5,13,14,12,15,16,8,22,21,19,3,4,2,10,11,1
 preference <- data.frame(cbind(preference_1, preference_2, preference_3, preference_4))
 
 my_design_1 <- c(1, 0, 1, 0, 0)
-my_design_2 <- c(1, 0, 1, 0, 0)
-my_design_3 <- c(1, 0, 1, 0, 0)
-my_design_4 <- c(1, 0, 1, 0, 0)
+my_design_2 <- c(1, 1, 0, 0, 0)
+my_design_3 <- c(1, 0, 1, 1, 0)
+my_design_4 <- c(1, 1, 1, 0, 0)
 my_design <- data.frame(cbind(my_design_1, my_design_2, my_design_3, my_design_4))
 
 competitor_1 <- c(1, 1, 0, 1, 1)
