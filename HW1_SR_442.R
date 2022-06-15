@@ -1,5 +1,3 @@
-setwd("C:/Users/ranad/Desktop/Winter 2022/442/Homework 1/")
-
 data <- read.csv("design matrix.csv")
 
 library(dplyr)
